@@ -1,0 +1,39 @@
+permissions:
+  command:
+    perm: 'staff.command'
+  admim:
+    perm: 'staff.admin'
+prefix: '&c&lStaff &7× '
+messages:
+  noperms: '&cNot allowed!'
+  staffjoined: '&7You went &ainto §7Staff mode!'
+  staffleaved: '&7You went §cout §7of Staff mode!'
+  notinstaffmode: '&cNot in Staff mode!'
+  changedgamemodein0: '&7GameMode changed to &6&lSURVIVAL&7!'
+  changedgamemodein1: '&7GameMode changed to &6&lCREATIVE&7!'
+  changedgamemodein2: '&7GameMode changed to &6&lADVENTURE&7!'
+  changedgamemodein3: '&7GameMode changed to &6&lSPECTATOR&7!'
+  playernotfoud: '&7Not Found'
+  isoffline: '&7Is offline'
+  cannoteffect: '&7Cannot effect yourself'
+guis:
+  maingui:
+    name: '&7Main GUI'
+    perms:
+      1: 'staff.item.1'
+      2: 'staff.item.2'
+      3: 'staff.item.3'
+    items:
+      1: '&aGamemode'
+      2: '&7Manage Players'
+      3: '&7Spectate / Teleport'
+  gamemodegui:
+    name: '&7Gamemode GUI'
+    perm: 'staff.guigamemode'
+  manageplayergui:
+    name: '&7Player Manager'
+  bankickgui:
+    name: '&7Players GUI'
+    commands:
+      kick: '/kick %PLAYER% %REASON%'
+      ban: '/ban %PLAYER% %REASON%'

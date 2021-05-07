@@ -1,0 +1,7 @@
+name: StaffSystem
+author: ConnorAndTryAnixx
+version: 1.0
+main: de.staff.StaffService
+
+commands:
+  staff:
